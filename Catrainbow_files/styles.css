@@ -1,0 +1,7 @@
+.background-container {
+    background-image: url('Catrainbow_files/background.jpg'); /* 背景图像的路径 */
+    background-size: cover; /* 背景图像大小的调整方式，cover表示尽可能填充整个容器 */
+    background-position: center; /* 背景图像在容器中的位置，居中显示 */
+    height: 100vh; /* 设置容器的高度为视口的100%，以确保背景覆盖整个视口 */
+    /* 其他样式 */
+}

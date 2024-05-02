@@ -1,0 +1,81 @@
+.review{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+}
+.area{
+    position: relative;
+    top: 10px;
+    left: 260px;
+    width: 200px;
+}
+.in{
+    float: left;
+    height: 40px;
+    padding-left: 0px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 300px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+.btn{
+    margin-left: 100px;
+    height: 30px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    background-color: rgb(0, 183, 255);
+    border-radius: 5px;
+    transition: all 1s;
+}
+.btn:hover{
+    background:linear-gradient(-200deg,#e175ff,#4284ff);
+    background-position-x: -260px;
+}
+.view{
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    max-height: 100px;
+    width: 300px;
+    overflow: auto;
+}
+.re{
+    color: black;
+    float: left;
+    height: 100px;
+    width: 300px;
+    border-bottom: 1px dashed rgb(107, 107, 107);
+}
+.re h3{
+    color: rgb(255, 156, 173);
+}
+.re div{
+    position: relative;
+    font-size: 14px;
+    top: 21px;
+}
+.contain{
+    position: absolute;
+    top: 60px;
+    left: 920px;
+    color: black;
+}
+.del{
+    margin-top: 5px;
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-family: "icomoon";
+}
